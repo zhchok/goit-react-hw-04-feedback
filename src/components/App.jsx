@@ -1,4 +1,3 @@
-import { Component } from "react";
 import { GlobalStyle } from "./base/GlobalStyle";
 import { Box } from "./box/box";
 import Statistics from "./Statistics/Statistics";
@@ -6,7 +5,6 @@ import Section from "./SectionTitle/SectionTitle";
 import Notification from "./Notification/Notification";
 import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
 import { useState } from "react";
-import { useEffect } from "react";
 
 export const App = () => {
 	const [good, setGood] = useState(0);
